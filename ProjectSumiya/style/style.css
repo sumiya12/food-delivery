@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+.header {
+  border: 0px solid black;
+  display: flex;
+  height: 56px;
+  max-width: 100%;
+  margin: 0%;
+  background: #fefefe;
+  box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
+  justify-content: space-between;
+  align-items: center;
+}
+.container-logo {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-icon {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  padding-right: 10px;
+}
+.food-delivery {
+  display: inline-block;
+  position: relative;
+  color: #f17228;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
+}
+.cont-menu {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  line-height: 24px;
+  align-items: center;
+}
+.cont-menu div {
+  /* justify-content: space-between; */
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 500; */
+  /* font-weight: medium; */
+  font-size: 16px;
+  /* line-height: 24px; */
+  margin: 0px 10px;
+  /* align-items: center; */
+}
+.cont-menu div:hover {
+  color: #f17228;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: bold;
+}
+.search {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  width: 235px;
+  height: 32px;
+  border: 1px solid #f17228;
+  background-image: url("/header/.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 10px;
+  align-items: center;
+}
+#search {
+  padding-left: 30px;
+}
+.login-busket {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: #f17228;
+}
+.login-busket div {
+  padding: 18px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Poppins";
+  font-weight: 500px;
+  text-align: center;
+}
+.busket {
+  background-image: url(/header/busket\ icon.png);
+  background-repeat: no-repeat;
+  background-position: -1px;
+}
+.user-icon {
+  background-image: url(/header/user\ icon.png);
+  background-repeat: no-repeat;
+  background-position: -1px;
+}
+
+.mainContent {
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+}

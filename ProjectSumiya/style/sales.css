@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.sales-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+.container-sale {
+  max-width: 1440px;
+  margin: auto;
+  /* margin: 10px; */
+}
+.sales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sales span {
+  width: 11px;
+  height: 30px;
+  background-color: #f17228;
+  border: 1px solid #f17228;
+  margin: 0px 10px;
+}
+.sales h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  /* align-items: center; */
+  color: #171717;
+}
+.see-all {
+  width: 180px;
+  height: 48px;
+  background-color: #f17228;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.see-all h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 20px;
+}
+.see-all img {
+  box-sizing: border-box;
+  display: flex;
+  width: 12px;
+  height: 17px;
+}

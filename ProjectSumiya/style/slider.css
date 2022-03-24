@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.sliderBackground {
+  background-image: url("/slider/base.png");
+  background-repeat: no-repeat;
+  height: 496px;
+}
+.slider-text {
+  width: 383px;
+  right: 222px;
+  line-height: 10px;
+}
+#span {
+  border-top: 2px solid rgba(241, 114, 40, 0.6);
+  display: block;
+  padding-bottom: 20px;
+}
+.slider-text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90%;
+  color: #f17228;
+  padding-bottom: 20px;
+}
+.slider p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+#slider {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+}
+.pic {
+  display: flex;
+  position: relative;
+}
+.pic-1 {
+  position: absolute;
+  width: 345px;
+  height: 311px;
+  left: 182.75px;
+  z-index: 1;
+  top: 64.46px;
+}
+.pic-2 {
+  position: relative;
+  width: 305px;
+  height: 369.08px;
+  left: 60.25px;
+  top: 15.46px;
+}
+#arrow {
+  background-color: white;
+  border-radius: 30px;
+  width: 60px;
+  height: 40px;
+  padding: 10px 20px;
+}
+#arrow img {
+  /* border: 2px solid #f17228; */
+  width: 26px;
+  height: 20px;
+}
